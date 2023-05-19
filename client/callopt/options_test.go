@@ -22,13 +22,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/internal/client"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/fallback"
-	"github.com/cloudwego/kitex/pkg/http"
-	"github.com/cloudwego/kitex/pkg/retry"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/rpcinfo/remoteinfo"
+	"github.com/cdvr1993/kitex/internal/client"
+	"github.com/cdvr1993/kitex/internal/test"
+	"github.com/cdvr1993/kitex/pkg/fallback"
+	"github.com/cdvr1993/kitex/pkg/http"
+	"github.com/cdvr1993/kitex/pkg/retry"
+	"github.com/cdvr1993/kitex/pkg/rpcinfo"
+	"github.com/cdvr1993/kitex/pkg/rpcinfo/remoteinfo"
 )
 
 // Mock value

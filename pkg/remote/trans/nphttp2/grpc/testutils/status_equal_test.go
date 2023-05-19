@@ -26,8 +26,8 @@ import (
 	spb "google.golang.org/genproto/googleapis/rpc/status"
 	"google.golang.org/protobuf/types/known/anypb"
 
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/codes"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/status"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/nphttp2/codes"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/nphttp2/status"
 )
 
 var statusErr = status.ErrorProto(&spb.Status{

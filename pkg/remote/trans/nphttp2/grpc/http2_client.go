@@ -35,14 +35,14 @@ import (
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
 
-	"github.com/cloudwego/kitex/pkg/gofunc"
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/codes"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/grpc/grpcframe"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/grpc/syscall"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/metadata"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/peer"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/status"
+	"github.com/cdvr1993/kitex/pkg/gofunc"
+	"github.com/cdvr1993/kitex/pkg/klog"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/nphttp2/codes"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/nphttp2/grpc/grpcframe"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/nphttp2/grpc/syscall"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/nphttp2/metadata"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/nphttp2/peer"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/nphttp2/status"
 )
 
 // http2Client implements the ClientTransport interface with HTTP2.

@@ -27,9 +27,9 @@ import (
 	"github.com/apache/thrift/lib/go/thrift"
 	"github.com/jhump/protoreflect/desc/protoparse"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/pkg/generic/descriptor"
-	"github.com/cloudwego/kitex/pkg/generic/proto"
+	"github.com/cdvr1993/kitex/internal/mocks"
+	"github.com/cdvr1993/kitex/pkg/generic/descriptor"
+	"github.com/cdvr1993/kitex/pkg/generic/proto"
 )
 
 var (

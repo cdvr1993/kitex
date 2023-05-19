@@ -35,7 +35,7 @@ import (
 
 	"github.com/apache/thrift/lib/go/thrift"
 	{{if GenerateDeepCopyAPIs -}}
-	kutils "github.com/cloudwego/kitex/pkg/utils"
+	kutils "github.com/cdvr1993/kitex/pkg/utils"
 	{{- end}}
 	{{if GenerateFastAPIs}}
 	"{{ImportPathTo "pkg/protocol/bthrift"}}"

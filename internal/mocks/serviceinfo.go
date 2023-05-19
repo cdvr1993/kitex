@@ -23,7 +23,7 @@ import (
 
 	"github.com/apache/thrift/lib/go/thrift"
 
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
+	"github.com/cdvr1993/kitex/pkg/serviceinfo"
 )
 
 // method name of mock

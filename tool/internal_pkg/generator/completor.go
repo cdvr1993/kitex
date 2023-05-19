@@ -30,8 +30,8 @@ import (
 
 	"golang.org/x/tools/go/ast/astutil"
 
-	"github.com/cloudwego/kitex/tool/internal_pkg/log"
-	"github.com/cloudwego/kitex/tool/internal_pkg/tpl"
+	"github.com/cdvr1993/kitex/tool/internal_pkg/log"
+	"github.com/cdvr1993/kitex/tool/internal_pkg/tpl"
 )
 
 var errNoNewMethod = fmt.Errorf("no new method")

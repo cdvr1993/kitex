@@ -17,8 +17,8 @@
 package server
 
 import (
-	internal_server "github.com/cloudwego/kitex/internal/server"
-	"github.com/cloudwego/kitex/pkg/utils"
+	internal_server "github.com/cdvr1993/kitex/internal/server"
+	"github.com/cdvr1993/kitex/pkg/utils"
 )
 
 // Deprecated: Useless option now, server support multi protocols by default.

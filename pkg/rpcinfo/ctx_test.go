@@ -20,9 +20,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/cdvr1993/kitex/internal/test"
+	"github.com/cdvr1993/kitex/pkg/rpcinfo"
+	"github.com/cdvr1993/kitex/pkg/utils"
 )
 
 func TestNewCtxWithRPCInfo(t *testing.T) {

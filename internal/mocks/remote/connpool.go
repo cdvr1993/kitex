@@ -26,7 +26,7 @@ import (
 	net "net"
 	reflect "reflect"
 
-	remote "github.com/cloudwego/kitex/pkg/remote"
+	remote "github.com/cdvr1993/kitex/pkg/remote"
 	gomock "github.com/golang/mock/gomock"
 )
 

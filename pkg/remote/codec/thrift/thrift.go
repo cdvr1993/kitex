@@ -23,12 +23,12 @@ import (
 
 	"github.com/apache/thrift/lib/go/thrift"
 
-	internal_stats "github.com/cloudwego/kitex/internal/stats"
-	"github.com/cloudwego/kitex/pkg/protocol/bthrift"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec"
-	"github.com/cloudwego/kitex/pkg/remote/codec/perrors"
-	"github.com/cloudwego/kitex/pkg/stats"
+	internal_stats "github.com/cdvr1993/kitex/internal/stats"
+	"github.com/cdvr1993/kitex/pkg/protocol/bthrift"
+	"github.com/cdvr1993/kitex/pkg/remote"
+	"github.com/cdvr1993/kitex/pkg/remote/codec"
+	"github.com/cdvr1993/kitex/pkg/remote/codec/perrors"
+	"github.com/cdvr1993/kitex/pkg/stats"
 )
 
 // CodecType is config of the thrift codec. Priority: Frugal > FastMode > Normal

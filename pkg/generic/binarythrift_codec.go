@@ -21,11 +21,11 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/codec"
-	"github.com/cloudwego/kitex/pkg/remote/codec/perrors"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
+	"github.com/cdvr1993/kitex/pkg/remote"
+	"github.com/cdvr1993/kitex/pkg/remote/codec"
+	"github.com/cdvr1993/kitex/pkg/remote/codec/perrors"
+	"github.com/cdvr1993/kitex/pkg/rpcinfo"
+	"github.com/cdvr1993/kitex/pkg/serviceinfo"
 )
 
 var _ remote.PayloadCodec = &binaryThriftCodec{}

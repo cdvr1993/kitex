@@ -23,14 +23,14 @@ import (
 	"net"
 	"runtime/debug"
 
-	stats2 "github.com/cloudwego/kitex/internal/stats"
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
-	"github.com/cloudwego/kitex/pkg/stats"
+	stats2 "github.com/cdvr1993/kitex/internal/stats"
+	"github.com/cdvr1993/kitex/pkg/endpoint"
+	"github.com/cdvr1993/kitex/pkg/kerrors"
+	"github.com/cdvr1993/kitex/pkg/klog"
+	"github.com/cdvr1993/kitex/pkg/remote"
+	"github.com/cdvr1993/kitex/pkg/rpcinfo"
+	"github.com/cdvr1993/kitex/pkg/serviceinfo"
+	"github.com/cdvr1993/kitex/pkg/stats"
 )
 
 // NewDefaultSvrTransHandler to provide default impl of svrTransHandler, it can be reused in netpoll, shm-ipc, framework-sdk extensions

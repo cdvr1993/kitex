@@ -26,14 +26,14 @@ import (
 
 	"github.com/apache/thrift/lib/go/thrift"
 
-	"github.com/cloudwego/kitex/client"
-	"github.com/cloudwego/kitex/client/genericclient"
-	kt "github.com/cloudwego/kitex/internal/mocks/thrift"
-	"github.com/cloudwego/kitex/pkg/generic"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
-	"github.com/cloudwego/kitex/pkg/utils"
-	"github.com/cloudwego/kitex/server"
-	"github.com/cloudwego/kitex/server/genericserver"
+	"github.com/cdvr1993/kitex/client"
+	"github.com/cdvr1993/kitex/client/genericclient"
+	kt "github.com/cdvr1993/kitex/internal/mocks/thrift"
+	"github.com/cdvr1993/kitex/pkg/generic"
+	"github.com/cdvr1993/kitex/pkg/serviceinfo"
+	"github.com/cdvr1993/kitex/pkg/utils"
+	"github.com/cdvr1993/kitex/server"
+	"github.com/cdvr1993/kitex/server/genericserver"
 )
 
 var (

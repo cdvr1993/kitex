@@ -23,8 +23,8 @@ import (
 
 	"github.com/cloudwego/thriftgo/generator/golang/extension/unknown"
 
-	tt "github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/protocol/bthrift/test/kitex_gen/test"
+	tt "github.com/cdvr1993/kitex/internal/test"
+	"github.com/cdvr1993/kitex/pkg/protocol/bthrift/test/kitex_gen/test"
 )
 
 var fullReq *test.FullStruct

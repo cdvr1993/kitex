@@ -22,9 +22,9 @@ import (
 
 	jsoniter "github.com/json-iterator/go"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/rpcinfo/remoteinfo"
+	"github.com/cdvr1993/kitex/internal/test"
+	"github.com/cdvr1993/kitex/pkg/rpcinfo"
+	"github.com/cdvr1993/kitex/pkg/rpcinfo/remoteinfo"
 )
 
 var (

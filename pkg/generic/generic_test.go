@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
+	"github.com/cdvr1993/kitex/internal/test"
+	"github.com/cdvr1993/kitex/pkg/serviceinfo"
 )
 
 func TestBinaryThriftGeneric(t *testing.T) {

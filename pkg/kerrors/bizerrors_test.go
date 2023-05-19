@@ -21,7 +21,7 @@ import (
 
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/cdvr1993/kitex/internal/test"
 )
 
 func TestBizStatusErrors(t *testing.T) {

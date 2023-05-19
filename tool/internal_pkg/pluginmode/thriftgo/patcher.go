@@ -25,7 +25,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/cloudwego/kitex/tool/internal_pkg/util"
+	"github.com/cdvr1993/kitex/tool/internal_pkg/util"
 
 	"github.com/cloudwego/thriftgo/generator/golang"
 	"github.com/cloudwego/thriftgo/generator/golang/templates"
@@ -33,7 +33,7 @@ import (
 	"github.com/cloudwego/thriftgo/parser"
 	"github.com/cloudwego/thriftgo/plugin"
 
-	"github.com/cloudwego/kitex/tool/internal_pkg/generator"
+	"github.com/cdvr1993/kitex/tool/internal_pkg/generator"
 )
 
 var extraTemplates []string
@@ -242,7 +242,7 @@ func (p *patcher) patch(req *plugin.Request) (patches []*plugin.Generated, err e
 		content := buf.String()
 		// if kutils is not used, remove the dependency.
 		if !strings.Contains(content, "kutils.StringDeepCopy") {
-			kutilsImp := `kutils "github.com/cloudwego/kitex/pkg/utils"`
+			kutilsImp := `kutils "github.com/cdvr1993/kitex/pkg/utils"`
 			idx := strings.Index(content, kutilsImp)
 			if idx > 0 {
 				content = content[:idx-1] + content[idx+len(kutilsImp):]

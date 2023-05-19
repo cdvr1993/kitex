@@ -19,9 +19,9 @@ package nphttp2
 import (
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/grpc"
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
+	"github.com/cdvr1993/kitex/internal/test"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/nphttp2/grpc"
+	"github.com/cdvr1993/kitex/pkg/serviceinfo"
 )
 
 func TestStream(t *testing.T) {

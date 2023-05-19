@@ -22,13 +22,13 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/cloudwego/kitex/internal"
-	mocksdiscovery "github.com/cloudwego/kitex/internal/mocks/discovery"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/discovery"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/rpcinfo/remoteinfo"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/cdvr1993/kitex/internal"
+	mocksdiscovery "github.com/cdvr1993/kitex/internal/mocks/discovery"
+	"github.com/cdvr1993/kitex/internal/test"
+	"github.com/cdvr1993/kitex/pkg/discovery"
+	"github.com/cdvr1993/kitex/pkg/rpcinfo"
+	"github.com/cdvr1993/kitex/pkg/rpcinfo/remoteinfo"
+	"github.com/cdvr1993/kitex/pkg/utils"
 )
 
 func TestRemoteInfo(t *testing.T) {

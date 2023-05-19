@@ -21,7 +21,7 @@ import (
 
 	"github.com/cloudwego/thriftgo/reflection"
 
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/cdvr1993/kitex/internal/test"
 )
 
 func TestRegistry(t *testing.T) {

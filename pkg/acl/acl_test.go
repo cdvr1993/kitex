@@ -21,8 +21,8 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/kerrors"
+	"github.com/cdvr1993/kitex/internal/test"
+	"github.com/cdvr1993/kitex/pkg/kerrors"
 )
 
 var errFake = errors.New("fake error")

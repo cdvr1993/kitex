@@ -22,8 +22,8 @@ import (
 
 	"github.com/apache/thrift/lib/go/thrift"
 
-	mt "github.com/cloudwego/kitex/internal/mocks/thrift"
-	"github.com/cloudwego/kitex/internal/test"
+	mt "github.com/cdvr1993/kitex/internal/mocks/thrift"
+	"github.com/cdvr1993/kitex/internal/test"
 )
 
 func TestRPCCodec(t *testing.T) {

@@ -23,7 +23,7 @@ package testutils
 import (
 	"google.golang.org/protobuf/proto"
 
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/status"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/nphttp2/status"
 )
 
 // StatusErrEqual returns true iff both err1 and err2 wrap status.Status errors

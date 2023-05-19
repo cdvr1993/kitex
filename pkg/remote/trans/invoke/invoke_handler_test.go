@@ -19,8 +19,8 @@ package invoke
 import (
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/cdvr1993/kitex/internal/mocks"
+	"github.com/cdvr1993/kitex/pkg/remote"
 )
 
 func Test_ivkHandler_Call(t *testing.T) {

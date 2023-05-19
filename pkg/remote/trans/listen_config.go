@@ -25,7 +25,7 @@ import (
 
 	"golang.org/x/sys/unix"
 
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/cdvr1993/kitex/pkg/remote"
 )
 
 // NewListenConfig return an new net.ListenConfig.

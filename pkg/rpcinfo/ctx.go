@@ -19,7 +19,7 @@ package rpcinfo
 import (
 	"context"
 
-	"github.com/cloudwego/kitex/internal"
+	"github.com/cdvr1993/kitex/internal"
 )
 
 type ctxRPCInfoKeyType struct{}

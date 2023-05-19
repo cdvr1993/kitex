@@ -19,7 +19,7 @@ package invoke
 import (
 	"net"
 
-	"github.com/cloudwego/kitex/pkg/remote/trans/invoke"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/invoke"
 )
 
 // Message indicates invoke message.

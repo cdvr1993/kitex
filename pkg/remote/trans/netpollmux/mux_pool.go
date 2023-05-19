@@ -24,7 +24,7 @@ import (
 
 	"github.com/cloudwego/netpoll"
 
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/cdvr1993/kitex/pkg/remote"
 
 	"golang.org/x/sync/singleflight"
 )

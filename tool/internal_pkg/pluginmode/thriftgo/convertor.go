@@ -24,7 +24,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cloudwego/kitex/tool/internal_pkg/util"
+	"github.com/cdvr1993/kitex/tool/internal_pkg/util"
 
 	"github.com/cloudwego/thriftgo/generator/backend"
 	"github.com/cloudwego/thriftgo/generator/golang"
@@ -32,8 +32,8 @@ import (
 	"github.com/cloudwego/thriftgo/plugin"
 	"github.com/cloudwego/thriftgo/semantic"
 
-	"github.com/cloudwego/kitex/tool/internal_pkg/generator"
-	internal_log "github.com/cloudwego/kitex/tool/internal_pkg/log"
+	"github.com/cdvr1993/kitex/tool/internal_pkg/generator"
+	internal_log "github.com/cdvr1993/kitex/tool/internal_pkg/log"
 )
 
 var (

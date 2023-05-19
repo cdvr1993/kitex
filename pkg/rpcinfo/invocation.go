@@ -20,7 +20,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/cloudwego/kitex/pkg/kerrors"
+	"github.com/cdvr1993/kitex/pkg/kerrors"
 )
 
 var (

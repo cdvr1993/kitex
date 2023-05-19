@@ -27,13 +27,13 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	mocksremote "github.com/cloudwego/kitex/internal/mocks/remote"
-	internal_stats "github.com/cloudwego/kitex/internal/stats"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/cdvr1993/kitex/internal/mocks"
+	mocksremote "github.com/cdvr1993/kitex/internal/mocks/remote"
+	internal_stats "github.com/cdvr1993/kitex/internal/stats"
+	"github.com/cdvr1993/kitex/internal/test"
+	"github.com/cdvr1993/kitex/pkg/remote"
+	"github.com/cdvr1993/kitex/pkg/rpcinfo"
+	"github.com/cdvr1993/kitex/pkg/utils"
 )
 
 var (

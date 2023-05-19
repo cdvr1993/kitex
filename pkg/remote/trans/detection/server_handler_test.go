@@ -23,22 +23,22 @@ import (
 	"net"
 	"testing"
 
-	mocksklog "github.com/cloudwego/kitex/internal/mocks/klog"
-	"github.com/cloudwego/kitex/pkg/remote/codec"
-	"github.com/cloudwego/kitex/pkg/remote/trans/netpoll"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/grpc"
+	mocksklog "github.com/cdvr1993/kitex/internal/mocks/klog"
+	"github.com/cdvr1993/kitex/pkg/remote/codec"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/netpoll"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/nphttp2"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/nphttp2/grpc"
 
 	"github.com/golang/mock/gomock"
 
-	npmocks "github.com/cloudwego/kitex/internal/mocks/netpoll"
-	remote_mocks "github.com/cloudwego/kitex/internal/mocks/remote"
+	npmocks "github.com/cdvr1993/kitex/internal/mocks/netpoll"
+	remote_mocks "github.com/cdvr1993/kitex/internal/mocks/remote"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/cdvr1993/kitex/internal/mocks"
+	"github.com/cdvr1993/kitex/internal/test"
+	"github.com/cdvr1993/kitex/pkg/klog"
+	"github.com/cdvr1993/kitex/pkg/remote"
+	"github.com/cdvr1993/kitex/pkg/utils"
 )
 
 var prefaceReadAtMost = func() int {
