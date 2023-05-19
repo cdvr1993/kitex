@@ -22,10 +22,10 @@ import (
 	"net"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/codes"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/grpc"
-	"github.com/cloudwego/kitex/pkg/remote/trans/nphttp2/status"
-	"github.com/cloudwego/kitex/pkg/streaming"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/nphttp2/codes"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/nphttp2/grpc"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/nphttp2/status"
+	"github.com/cdvr1993/kitex/pkg/streaming"
 )
 
 type serverConn struct {

@@ -1,9 +1,9 @@
-module github.com/cloudwego/kitex
+module github.com/cdvr1993/kitex
 
 go 1.13
 
 require (
-	github.com/apache/thrift v0.13.0
+	github.com/apache/thrift v0.18.1
 	github.com/bytedance/gopkg v0.0.0-20220817015305-b879a72dc90f
 	github.com/bytedance/mockey v1.2.0
 	github.com/choleraehyq/pid v0.0.16
@@ -24,3 +24,5 @@ require (
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v3 v3.0.1
 )
+
+replace github.com/apache/thrift => ./apachethrift

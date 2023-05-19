@@ -24,8 +24,8 @@ import (
 	"github.com/cloudwego/thriftgo/parser"
 	"github.com/cloudwego/thriftgo/semantic"
 
-	"github.com/cloudwego/kitex/pkg/generic/descriptor"
-	"github.com/cloudwego/kitex/pkg/klog"
+	"github.com/cdvr1993/kitex/pkg/generic/descriptor"
+	"github.com/cdvr1993/kitex/pkg/klog"
 )
 
 const (

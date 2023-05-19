@@ -22,9 +22,9 @@ import (
 	"context"
 	"net"
 
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/klog"
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/cdvr1993/kitex/pkg/endpoint"
+	"github.com/cdvr1993/kitex/pkg/klog"
+	"github.com/cdvr1993/kitex/pkg/remote"
 )
 
 // DetectableServerTransHandler implements an additional method ProtocolMatch to help

@@ -22,7 +22,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/cdvr1993/kitex/internal/test"
 )
 
 func TestWriteInt64ToStringBuilder(t *testing.T) {

@@ -22,8 +22,8 @@ import (
 
 	"github.com/bytedance/gopkg/cloud/circuitbreaker"
 
-	"github.com/cloudwego/kitex/pkg/endpoint"
-	"github.com/cloudwego/kitex/pkg/kerrors"
+	"github.com/cdvr1993/kitex/pkg/endpoint"
+	"github.com/cdvr1993/kitex/pkg/kerrors"
 )
 
 // Parameter contains parameters for circuit breaker.

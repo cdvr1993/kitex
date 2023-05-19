@@ -17,10 +17,10 @@
 package client
 
 import (
-	"github.com/cloudwego/kitex/internal/client"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/utils"
-	"github.com/cloudwego/kitex/transport"
+	"github.com/cdvr1993/kitex/internal/client"
+	"github.com/cdvr1993/kitex/pkg/rpcinfo"
+	"github.com/cdvr1993/kitex/pkg/utils"
+	"github.com/cdvr1993/kitex/transport"
 )
 
 // WithFramedTransport to use framed transport

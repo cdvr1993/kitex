@@ -19,7 +19,7 @@ package loadbalance
 import (
 	"context"
 
-	"github.com/cloudwego/kitex/pkg/discovery"
+	"github.com/cdvr1993/kitex/pkg/discovery"
 )
 
 // Picker picks an instance for next RPC call.

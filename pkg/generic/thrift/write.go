@@ -25,9 +25,9 @@ import (
 	"github.com/apache/thrift/lib/go/thrift"
 	"github.com/tidwall/gjson"
 
-	"github.com/cloudwego/kitex/pkg/generic/descriptor"
-	"github.com/cloudwego/kitex/pkg/generic/proto"
-	"github.com/cloudwego/kitex/pkg/remote/codec/perrors"
+	"github.com/cdvr1993/kitex/pkg/generic/descriptor"
+	"github.com/cdvr1993/kitex/pkg/generic/proto"
+	"github.com/cdvr1993/kitex/pkg/remote/codec/perrors"
 )
 
 type writerOption struct {

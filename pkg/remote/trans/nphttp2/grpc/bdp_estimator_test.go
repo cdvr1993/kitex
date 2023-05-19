@@ -19,7 +19,7 @@ package grpc
 import (
 	"testing"
 
-	"github.com/cloudwego/kitex/internal/test"
+	"github.com/cdvr1993/kitex/internal/test"
 )
 
 func TestBdp(t *testing.T) {

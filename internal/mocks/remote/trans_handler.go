@@ -26,8 +26,8 @@ import (
 	net "net"
 	reflect "reflect"
 
-	endpoint "github.com/cloudwego/kitex/pkg/endpoint"
-	remote "github.com/cloudwego/kitex/pkg/remote"
+	endpoint "github.com/cdvr1993/kitex/pkg/endpoint"
+	remote "github.com/cdvr1993/kitex/pkg/remote"
 	gomock "github.com/golang/mock/gomock"
 )
 

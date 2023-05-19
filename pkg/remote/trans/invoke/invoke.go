@@ -18,8 +18,8 @@
 package invoke
 
 import (
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/trans"
+	"github.com/cdvr1993/kitex/pkg/remote"
+	"github.com/cdvr1993/kitex/pkg/remote/trans"
 )
 
 type ivkTransHandlerFactory struct{}

@@ -26,15 +26,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloudwego/kitex/pkg/connpool"
+	"github.com/cdvr1993/kitex/pkg/connpool"
 
 	"github.com/golang/mock/gomock"
 
-	mocksnetpoll "github.com/cloudwego/kitex/internal/mocks/netpoll"
-	mocksremote "github.com/cloudwego/kitex/internal/mocks/remote"
-	"github.com/cloudwego/kitex/internal/test"
-	dialer "github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/utils"
+	mocksnetpoll "github.com/cdvr1993/kitex/internal/mocks/netpoll"
+	mocksremote "github.com/cdvr1993/kitex/internal/mocks/remote"
+	"github.com/cdvr1993/kitex/internal/test"
+	dialer "github.com/cdvr1993/kitex/pkg/remote"
+	"github.com/cdvr1993/kitex/pkg/utils"
 )
 
 var (

@@ -22,11 +22,11 @@ import (
 	"os/exec"
 	"strings"
 
-	"github.com/cloudwego/kitex"
-	kargs "github.com/cloudwego/kitex/tool/cmd/kitex/args"
-	"github.com/cloudwego/kitex/tool/internal_pkg/log"
-	"github.com/cloudwego/kitex/tool/internal_pkg/pluginmode/protoc"
-	"github.com/cloudwego/kitex/tool/internal_pkg/pluginmode/thriftgo"
+	"github.com/cdvr1993/kitex"
+	kargs "github.com/cdvr1993/kitex/tool/cmd/kitex/args"
+	"github.com/cdvr1993/kitex/tool/internal_pkg/log"
+	"github.com/cdvr1993/kitex/tool/internal_pkg/pluginmode/protoc"
+	"github.com/cdvr1993/kitex/tool/internal_pkg/pluginmode/thriftgo"
 )
 
 var args kargs.Arguments

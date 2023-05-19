@@ -26,7 +26,7 @@ import (
 	net "net"
 	reflect "reflect"
 
-	proxy "github.com/cloudwego/kitex/pkg/proxy"
+	proxy "github.com/cdvr1993/kitex/pkg/proxy"
 	gomock "github.com/golang/mock/gomock"
 )
 

@@ -25,7 +25,7 @@ import (
 	"github.com/cloudwego/fastpb"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/cdvr1993/kitex/pkg/remote"
 )
 
 const dataFrameHeaderLen = 5

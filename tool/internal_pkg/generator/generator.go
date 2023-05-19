@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cloudwego/kitex/tool/internal_pkg/log"
-	"github.com/cloudwego/kitex/tool/internal_pkg/tpl"
-	"github.com/cloudwego/kitex/tool/internal_pkg/util"
+	"github.com/cdvr1993/kitex/tool/internal_pkg/log"
+	"github.com/cdvr1993/kitex/tool/internal_pkg/tpl"
+	"github.com/cdvr1993/kitex/tool/internal_pkg/util"
 )
 
 // Constants .
@@ -48,7 +48,7 @@ const (
 )
 
 var (
-	kitexImportPath = "github.com/cloudwego/kitex"
+	kitexImportPath = "github.com/cdvr1993/kitex"
 
 	globalMiddlewares  []Middleware
 	globalDependencies = map[string]string{

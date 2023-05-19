@@ -22,8 +22,8 @@ import (
 
 	"github.com/bytedance/gopkg/cloud/metainfo"
 
-	"github.com/cloudwego/kitex/pkg/consts"
-	"github.com/cloudwego/kitex/pkg/remote"
+	"github.com/cdvr1993/kitex/pkg/consts"
+	"github.com/cdvr1993/kitex/pkg/remote"
 )
 
 // NewTransMetaHandler to build transMetaHandler that handle transport info

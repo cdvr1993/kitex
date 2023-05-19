@@ -26,7 +26,7 @@ import (
 	reflect "reflect"
 
 	thrift "github.com/apache/thrift/lib/go/thrift"
-	thrift0 "github.com/cloudwego/kitex/pkg/generic/thrift"
+	thrift0 "github.com/cdvr1993/kitex/pkg/generic/thrift"
 	gomock "github.com/golang/mock/gomock"
 )
 

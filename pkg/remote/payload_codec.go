@@ -20,7 +20,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/cloudwego/kitex/pkg/serviceinfo"
+	"github.com/cdvr1993/kitex/pkg/serviceinfo"
 )
 
 var payloadCodecs = make(map[serviceinfo.PayloadCodec]PayloadCodec)

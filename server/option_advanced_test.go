@@ -25,14 +25,14 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	"github.com/cloudwego/kitex/internal/mocks"
-	mock_remote "github.com/cloudwego/kitex/internal/mocks/remote"
-	internal_server "github.com/cloudwego/kitex/internal/server"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/acl"
-	"github.com/cloudwego/kitex/pkg/generic"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
+	"github.com/cdvr1993/kitex/internal/mocks"
+	mock_remote "github.com/cdvr1993/kitex/internal/mocks/remote"
+	internal_server "github.com/cdvr1993/kitex/internal/server"
+	"github.com/cdvr1993/kitex/internal/test"
+	"github.com/cdvr1993/kitex/pkg/acl"
+	"github.com/cdvr1993/kitex/pkg/generic"
+	"github.com/cdvr1993/kitex/pkg/remote"
+	"github.com/cdvr1993/kitex/pkg/rpcinfo"
 )
 
 // TestWithServerBasicInfo tests the creation of a server with basic info

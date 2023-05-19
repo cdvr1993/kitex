@@ -25,8 +25,8 @@ import (
 	context "context"
 	reflect "reflect"
 
-	discovery "github.com/cloudwego/kitex/pkg/discovery"
-	loadbalance "github.com/cloudwego/kitex/pkg/loadbalance"
+	discovery "github.com/cdvr1993/kitex/pkg/discovery"
+	loadbalance "github.com/cdvr1993/kitex/pkg/loadbalance"
 	gomock "github.com/golang/mock/gomock"
 )
 

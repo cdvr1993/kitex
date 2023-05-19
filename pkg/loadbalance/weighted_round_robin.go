@@ -22,7 +22,7 @@ import (
 
 	"github.com/bytedance/gopkg/lang/fastrand"
 
-	"github.com/cloudwego/kitex/pkg/discovery"
+	"github.com/cdvr1993/kitex/pkg/discovery"
 )
 
 var (

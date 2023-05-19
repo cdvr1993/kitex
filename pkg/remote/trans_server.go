@@ -19,7 +19,7 @@ package remote
 import (
 	"net"
 
-	"github.com/cloudwego/kitex/pkg/utils"
+	"github.com/cdvr1993/kitex/pkg/utils"
 )
 
 // TransServerFactory is used to create TransServer instances.

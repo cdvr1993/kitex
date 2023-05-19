@@ -24,14 +24,14 @@ import (
 	"github.com/bytedance/gopkg/cloud/metainfo"
 	"github.com/golang/mock/gomock"
 
-	mocksremote "github.com/cloudwego/kitex/internal/mocks/remote"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/consts"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/trans/invoke"
-	"github.com/cloudwego/kitex/pkg/rpcinfo"
-	"github.com/cloudwego/kitex/pkg/rpcinfo/remoteinfo"
-	"github.com/cloudwego/kitex/pkg/transmeta"
+	mocksremote "github.com/cdvr1993/kitex/internal/mocks/remote"
+	"github.com/cdvr1993/kitex/internal/test"
+	"github.com/cdvr1993/kitex/pkg/consts"
+	"github.com/cdvr1993/kitex/pkg/remote"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/invoke"
+	"github.com/cdvr1993/kitex/pkg/rpcinfo"
+	"github.com/cdvr1993/kitex/pkg/rpcinfo/remoteinfo"
+	"github.com/cdvr1993/kitex/pkg/transmeta"
 )
 
 // TestNewTransMetaHandler test NewTransMetaHandler function and assert the result not nil.

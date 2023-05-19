@@ -19,7 +19,7 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/cloudwego/kitex/tool/internal_pkg/util"
+	"github.com/cdvr1993/kitex/tool/internal_pkg/util"
 )
 
 func goSanitized(s string) string {

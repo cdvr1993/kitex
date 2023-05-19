@@ -23,11 +23,11 @@ import (
 
 	"github.com/golang/mock/gomock"
 
-	mockslimiter "github.com/cloudwego/kitex/internal/mocks/limiter"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/kerrors"
-	"github.com/cloudwego/kitex/pkg/remote"
-	"github.com/cloudwego/kitex/pkg/remote/trans/invoke"
+	mockslimiter "github.com/cdvr1993/kitex/internal/mocks/limiter"
+	"github.com/cdvr1993/kitex/internal/test"
+	"github.com/cdvr1993/kitex/pkg/kerrors"
+	"github.com/cdvr1993/kitex/pkg/remote"
+	"github.com/cdvr1993/kitex/pkg/remote/trans/invoke"
 )
 
 var errFoo = errors.New("mockError")

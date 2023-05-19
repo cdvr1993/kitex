@@ -20,7 +20,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/cloudwego/kitex/pkg/kerrors"
+	"github.com/cdvr1993/kitex/pkg/kerrors"
 )
 
 // some types of error won't trigger circuit breaker

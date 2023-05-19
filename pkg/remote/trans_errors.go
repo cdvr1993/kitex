@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/cloudwego/kitex/pkg/kerrors"
+	"github.com/cdvr1993/kitex/pkg/kerrors"
 )
 
 // corresponding with thrift TApplicationException, cannot change it

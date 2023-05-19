@@ -29,13 +29,13 @@ import (
 	"github.com/jhump/protoreflect/dynamic"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/cloudwego/kitex/client/callopt"
-	"github.com/cloudwego/kitex/client/genericclient"
-	"github.com/cloudwego/kitex/internal/test"
-	"github.com/cloudwego/kitex/pkg/generic"
-	"github.com/cloudwego/kitex/pkg/generic/descriptor"
-	"github.com/cloudwego/kitex/pkg/generic/httppb_test/idl"
-	"github.com/cloudwego/kitex/server"
+	"github.com/cdvr1993/kitex/client/callopt"
+	"github.com/cdvr1993/kitex/client/genericclient"
+	"github.com/cdvr1993/kitex/internal/test"
+	"github.com/cdvr1993/kitex/pkg/generic"
+	"github.com/cdvr1993/kitex/pkg/generic/descriptor"
+	"github.com/cdvr1993/kitex/pkg/generic/httppb_test/idl"
+	"github.com/cdvr1993/kitex/server"
 )
 
 func TestRun(t *testing.T) {

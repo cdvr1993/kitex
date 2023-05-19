@@ -26,7 +26,7 @@ import (
 	io "io"
 	reflect "reflect"
 
-	klog "github.com/cloudwego/kitex/pkg/klog"
+	klog "github.com/cdvr1993/kitex/pkg/klog"
 	gomock "github.com/golang/mock/gomock"
 )
 

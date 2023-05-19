@@ -16,7 +16,7 @@
 
 package generic
 
-import "github.com/cloudwego/kitex/pkg/generic/descriptor"
+import "github.com/cdvr1993/kitex/pkg/generic/descriptor"
 
 // DescriptorProvider provide service descriptor
 type DescriptorProvider interface {
